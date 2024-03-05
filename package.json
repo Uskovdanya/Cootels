@@ -12,5 +12,8 @@
     "browserify": "^17.0.0",
     "sass": "^1.71.1",
     "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
   }
 }

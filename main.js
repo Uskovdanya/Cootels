@@ -1,5 +1,3 @@
-import "./slick.min.js";
-
 window.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".menu__list"),
     menuItem = document.querySelectorAll(".menu__item"),
