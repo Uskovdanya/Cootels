@@ -1,0 +1,113 @@
+.room {
+    padding: 80px 0;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__get-room {
+        width: 407px;
+    }
+    &__journey {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: $blue-text-color;
+        margin-bottom: 12px;
+    }
+    &__text {
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    &__explore {
+        margin-left: 24px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0E1734;
+        transition: 0.3s all ease;
+        /*display: inline-block;*/
+        &:hover {
+            text-decoration: none;
+            color: $hover-color;
+        }
+        &:active {
+            color: darken($button-color, 5%)
+        }
+    }
+    &__choose {
+        display: grid;
+        grid-template: repeat(3, minmax(100px, auto/*188px*/)) / 588px;
+        row-gap: 24px;
+    }
+    &__box {
+        border-radius: 4px;
+        background: #FFFFFF;
+        filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07));
+        padding: 30px 36px 0 36px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        height: 40px; 
+    }
+    &__subheader {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: $blue-text-color;
+        padding: 2px 0 0 0 ;
+    }
+    &__text-menu {
+        display: none;
+        padding: 22px 0 36px 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: $text-color;
+        &_active {
+            display: block;
+        }
+        
+        
+    }
+    &__arrow {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        background: #FFECE2;
+        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        outline: none;   
+        &:focus {
+            outline: none;
+
+        }
+        &_active{
+            background: #FF620A;
+            transform: rotate(-180deg);
+            transition: 0.3s all ease;
+            path {
+                stroke: #ffffff;
+                transition: 0.6s all ease;
+
+            }
+            
+        }
+    }
+
+}
+
+

@@ -1,0 +1,58 @@
+@media (max-width: 1200px) {
+
+      .testimoni {
+            padding: 70px 0;
+      }
+
+}
+
+
+@media (max-width: 991px) {
+
+      .testimoni {
+            &__inner {
+                  width: 660px;
+            }
+      }
+}
+
+
+@media (max-width: 768px) {
+      .testimoni {
+            &__header {
+                  margin-bottom: 45px;
+            }
+
+            &__inner {
+                  width: 460px;
+            }
+
+            &__text {
+                  margin-top: 40px;
+                  margin-bottom: 35px;
+            }
+      }
+
+}
+
+
+
+@media (max-width: 575px) {
+      .testimoni {
+            padding: 40px 0;
+
+            &__header {
+                  margin-bottom: 30px;
+            }
+
+            &__inner {
+                  width: 275px;
+            }
+
+            &__text {
+                  margin-top: 30px;
+                  margin-bottom: 25px;
+            }
+      }
+
+}

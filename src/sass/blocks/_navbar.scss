@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 120px;
+}
+.logo {
+  padding-top: 46px;
+}
+.menu {
+  &__logo {
+    color: $title-color;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    transition: 0.3s all ease;
+    &:hover {
+      text-decoration: none;
+      color: $hover-color;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  &__item {
+    margin-right: 32px;
+    margin-top: 56px;
+    margin-bottom: 19px;
+  }
+  &__item-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $title-color;
+    transition: 0.3s all ease;
+    &:hover {
+      text-decoration: none;
+      color: $hover-color;
+    }
+  }
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}

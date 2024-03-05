@@ -1,0 +1,60 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text {
+    color: $text-color;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 18px;
+}
+.header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: $title-color;
+}
+
+
+@import 'blocks/navbar';
+
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/about';
+@import 'blocks/benefit';
+@import 'blocks/reserv';
+@import 'blocks/room';
+@import 'blocks/testimoni';
+@import 'blocks/footer';
+@import 'blocks/media-benefit';
+@import 'blocks/media-navbar';
+@import 'blocks/media-promo';
+@import 'blocks/media-about';
+@import 'blocks/media-reserv';
+@import 'blocks/media-room';
+@import 'blocks/media-testimoni';
+@import 'blocks/media-footer';
+
+
+
+
+

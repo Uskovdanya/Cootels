@@ -1,0 +1,60 @@
+.btn {
+	background: $button-color;
+	border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    transition: 0.3s all ease;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    line-height: 19px;
+    
+
+	&:hover {
+		background-color: $hover-color;
+        outline: none;
+        
+        
+	}
+    &:active {
+        background-color: darken($button-color, 5%)
+    }
+
+
+	&_main {
+		margin-top: 37px;
+		width: 121px;
+		height: 47px;
+		padding: 14px 16px;
+		
+		
+	}
+    &_second {
+        width: 156px;
+        height: 51px;
+        padding: 16px 32px;
+    }
+    &_third {
+        width: 151px;
+        height: 51px;
+        padding: 16px 32px;
+
+    }
+    &_four {
+        display: block;
+        width: 165px;
+        height: 51px;
+        padding: 16px 32px;
+        margin: 0 auto;
+    }
+    &_five {
+        width: 148px;
+        height: 51px;
+        padding: 16px 32px;
+        
+    }
+}

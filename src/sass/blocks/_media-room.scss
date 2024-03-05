@@ -1,0 +1,106 @@
+@media (max-width: 1200px) {
+    .room {
+        &__wrapper {
+            justify-content: space-around;
+        }
+        &__get-room {
+            width: 376px;
+        }
+        &__choose {
+            grid-template: repeat(3,minmax(100px,auto))/499px;
+        }
+    }
+}
+@media (max-width: 991px) {
+
+    .room {
+        padding: 70px 15px;
+        &__wrapper {
+            gap: 30px;
+        }
+        &__get-room {
+            width: 305px;  
+        }
+        &__explore {
+            
+            display: block;
+            margin-top: 22px;
+            margin-left: 0;
+        }
+        &__choose {
+            grid-template: repeat(3,minmax(90px,auto))/440px;
+            
+        }
+        &__box {
+            padding: 30px 20px 0 20px; 
+        }
+        &__arrow {
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .btn {
+        &_five {
+            width: 132px;
+            height: 42px;
+
+        }
+    }
+}
+@media (max-width: 768px) {
+    .room {
+        padding: 40px 0;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__get-room {
+            width: 343px;
+            margin-bottom: 30px; 
+        }
+        &__explore {
+            display: inline-block;
+            margin-top: 0;
+            margin-left: 14px;
+        }
+    }
+
+    .btn {
+        &_five {
+            width: 141px;
+            height: 44px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .room {
+        &__get-room {
+            width: 269px;
+        }
+        &__explore {
+            display: block;
+            margin-left: 0;
+            text-align: center;
+        }
+        &__choose {
+            grid-template: repeat(3,minmax(70px,auto))/290px;
+        }
+        &__box {
+            padding: 22px 7px 0 7px;  
+        }
+
+        &__subheader {
+            font-size: 16px;
+        }
+        &__arrow {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .btn {
+        &_five {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+}

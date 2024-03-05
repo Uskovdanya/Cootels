@@ -1,0 +1,46 @@
+@mixin before_firstshadow {
+    &:before {
+        position: absolute;
+        left: 9px;
+        top: 379px;
+        z-index: -1;
+        content: "";
+        width: 162px;
+        height: 225px;
+        background: no-repeat center/100% url('../img/section1/blur1.png');
+        opacity: 0.2;
+        filter: blur(44px);
+        border-radius: 4px;
+        
+    }
+}
+@mixin before_secondshadow {
+    &:before {
+        position: absolute;
+        left: 16px;
+        top: 379px;
+        z-index: -1;
+        content: "";
+        width: 148px;
+        height: 225px;
+        background: no-repeat center/100% url('../img/section1/blur2.png');
+        opacity: 0.3;
+        filter: blur(44px);
+        border-radius: 4px;
+    }
+}
+@mixin before_thirdshadow {
+    &:before {
+        position: absolute;
+        left: 9px;
+        top: 379px;
+        z-index: -1;
+        content: "";
+        width: 162px;
+        height: 225px;
+        background: no-repeat center/100% url('../img/section1/blur3.png');
+        opacity: 0.2;
+        filter: blur(44px);
+        border-radius: 4px;
+    }
+}

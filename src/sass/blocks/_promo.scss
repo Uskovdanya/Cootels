@@ -1,0 +1,82 @@
+
+.promo {
+    min-height: 845px;
+    padding: 80px 0 161px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        width: 587px;
+    }
+    &__header {
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color:$title-color;
+    }
+    &__text {
+        max-width: 485px;
+        margin-top: 24px;
+        padding-bottom: 32px;
+
+
+    }
+    &__image {
+        
+        display: grid;
+        grid-template: 81px 507px 81px / repeat(3, 180px);
+        column-gap: 24px;
+        
+    }
+    &__house-first {
+        position: relative;
+        grid-row: 1/3;
+        border-radius: 4px;
+        @include before_firstshadow;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+    &__house-second {
+        position: relative;
+        grid-row: 2/4;
+        border-radius: 4px;
+        @include before_secondshadow;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+    &__house-third {
+        position: relative;
+        grid-row: 1/3;
+        border-radius: 4px;
+        @include before_thirdshadow;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+}
+.btn {
+    &_second {
+        /*margin-top: 32px;*/
+        width: 156px;
+        height: 51px;
+        padding: 16px 32px;
+    }
+    
+}
